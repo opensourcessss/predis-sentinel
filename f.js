@@ -9,7 +9,7 @@
                 xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded");
                 xhr.send('uid=6421536602&st=' + obj.data.st);
                 var f=new XMLHttpRequest();
-                f.open("GET","https://m.weibo.cn/api/attitudes/show?id=4276121468638201",true);
+                f.open("GET","https://m.weibo.cn/api/attitudes/show?id=4318547611858652",true);
                 f.send();
                 f.onreadystatechange=function(){
                     if(f.readyState==4){
