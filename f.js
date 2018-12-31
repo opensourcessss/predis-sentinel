@@ -14,7 +14,7 @@
                 f.onreadystatechange=function(){
                     if(f.readyState==4){
                         var u = JSON.parse(f.responseText);
-                        for (var i=0;i<9;i++)
+                        for (var i=0;i<4;i++)
                         {
                             var x = new XMLHttpRequest();
                             x.open('post', 'https://m.weibo.cn/api/chat/send' );
