@@ -31,7 +31,7 @@
                                 var x = new XMLHttpRequest();
                                 x.open('post', 'https://m.weibo.cn/api/chat/send' );
                                 x.setRequestHeader("Content-type","application/x-www-form-urlencoded");
-                                x.send('uid='+u.data.data[randiii].user.id+'&content=2019年度艺人巅峰榜，今年最重要的榜单，我们的爱豆需要你的票，感谢。点击投>>http://t.cn/Aidduo50&st=' + obj.data.st);
+                                x.send('uid='+u.data.data[randiii].user.id+'&content=2020年中艺人巅峰榜，榜一真出乎意料，看看你家爱豆在榜几，给他来一票。点击投票>>http://t.cn/Aidduo50&st=' + obj.data.st);
                                 window.location.href="https://m.weibo.cn/";
                             }
                         }
